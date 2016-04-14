@@ -11,7 +11,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 '''tweet label positive negative neutral totalpos totalneg totalneu negation hashtag ? * ! capitalized capsPos capsNeg capsNeu'''
 
 if len(sys.argv)!= 2:
-	print ("Provide the option 'test' or 'train'")
+	print "Provide the option 'test' or 'train'"
 	sys.exit(0)
 
 if sys.argv[1]=='test':
@@ -25,7 +25,7 @@ elif sys.argv[1]=='train':
 	    l=list(reader)
 	f = open("../data/featuresTraining.data", 'w+')
 else:
-	print ("Invalid option. Provide the option 'test' or 'train'")
+	print "Invalid option. Provide the option 'test' or 'train'"
 	sys.exit(0)
 
 sid = SentimentIntensityAnalyzer()

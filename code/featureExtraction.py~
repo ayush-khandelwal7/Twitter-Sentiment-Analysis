@@ -29,7 +29,7 @@ def getFeatureVector(tweet):
         featureVector.append(w.lower())
     
     # comment this for bigram
-    #return featureVector       
+    return featureVector       
 
 
     bigram_finder = BigramCollocationFinder.from_words(words)

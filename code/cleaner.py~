@@ -21,6 +21,6 @@ for i in l:
 		continue
 	out.append(i)	
 
-with open("../data/cleanedtesting.data", "wb") as f:		
+with open("cleanedtesting.data", "wb") as f:		
     writer = csv.writer(f, delimiter='\t')
     writer.writerows(out)

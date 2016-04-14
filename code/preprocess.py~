@@ -15,7 +15,7 @@ if len(sys.argv)!= 2:
 	sys.exit(0)
 if sys.argv[1]=='0':
 	punctuation_list = [',','.',':','...','..','!','-',";",":","'",'"',"&","?","(",")","[","]","{","}","``","''"] 
-elif sys.argv[1]=='1':
+elif sys.arv[1]=='1':
 	punctuation_list = [',','.',':','...','..','-',";",":","'",'"',"&","(",")","[","]","{","}","``","''"] 
 else:
 	print "Invalid Option. Provide the option 0 or 1"
